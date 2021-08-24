@@ -61,3 +61,4 @@ void IntegerLinkedList::addFront(int x) {
 bool IntegerLinkedList::checkRecurseHelper () {
   return checkRecurse(head);
 }
+
