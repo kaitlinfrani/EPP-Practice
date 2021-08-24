@@ -79,3 +79,4 @@ double Population::averagePopulation(const string& county) {
   return (total / countypop_[county].first.size());
 
 }
+
