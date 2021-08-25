@@ -21,7 +21,12 @@ return sum;
 */
 
 int IntegerLinkedList::getSumRecurse (SNode *ptr) {
-  return -1; // COMPLETE THIS FOR PROBLEM 3
+	  int sum = 0;
+  if (head != nullptr) {
+    return head->elem + head->next;
+  }
+  else
+  return 0; // COMPLETE THIS FOR PROBLEM 3
 }
 
 void IntegerLinkedList::addFront(int x) {
