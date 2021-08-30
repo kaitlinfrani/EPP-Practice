@@ -1,5 +1,6 @@
 /* Definding classes. checkIn function that will keep track of which pets are waiting and
 seePet function that will return the name of the pet who is next.*/
+// file name is CatsRule.h
 #ifndef CatsRule
 //#define CatsRule
 #include <string>
